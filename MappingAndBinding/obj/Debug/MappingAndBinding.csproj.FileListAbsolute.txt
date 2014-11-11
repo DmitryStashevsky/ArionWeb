@@ -1,0 +1,10 @@
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\obj\Debug\MappingAndBinding.csprojResolveAssemblyReference.cache
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\MappingAndBinding.dll.config
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\MappingAndBinding.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\MappingAndBinding.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\EntityFramework.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\Models.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\Models.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\EntityFramework.xml
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\obj\Debug\MappingAndBinding.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\obj\Debug\MappingAndBinding.pdb

@@ -1,0 +1,12 @@
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.csprojResolveAssemblyReference.cache
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll.config
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\DatabaseGenerator.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\EntityFramework.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\MappingAndBinding.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\Models.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\MappingAndBinding.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\Models.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\EntityFramework.xml
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.pdb

@@ -1,0 +1,8 @@
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\DatabaseGenerator.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\DatabaseGenerator.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
