@@ -27,9 +27,9 @@ namespace MappingAndBinding.ArionWebDbContext
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ArionWebDbContext>());
             modelBuilder.Configurations.Add(new ElementMapping());
             modelBuilder.Configurations.Add(new ElementTypeMapping());
-            modelBuilder.Configurations.Add(new ManufacturingTechnologyMapping());
-            modelBuilder.Configurations.Add(new SpecificationMapping());
-            modelBuilder.Configurations.Add(new TypeOfHousingMapping());
+           // modelBuilder.Configurations.Add(new ManufacturingTechnologyMapping());
+           // modelBuilder.Configurations.Add(new SpecificationMapping());
+           //modelBuilder.Configurations.Add(new TypeOfHousingMapping());
         }
     }
 }

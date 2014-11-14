@@ -45,13 +45,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenerateDatabase.cs" />
+    <Compile Include="MsAccess\DataTranslate.cs" />
+    <Compile Include="MsAccess\DataMining.cs" />
+    <Compile Include="MsAccess\TranslationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlDeserialize\Coefficient.cs" />
     <Compile Include="XmlDeserialize\Group.cs" />
     <Compile Include="XmlDeserialize\GroupModel.cs" />
     <Compile Include="XmlDeserialize\GroupProperty.cs" />
     <Compile Include="XmlDeserialize\Hierarchy.cs" />
     <Compile Include="XmlDeserialize\ElementClass.cs" />
+    <Compile Include="XmlDeserialize\Key.cs" />
     <Compile Include="XmlDeserialize\Owner.cs" />
+    <Compile Include="XmlDeserialize\PropertyOption.cs" />
     <Compile Include="XmlDeserialize\XmlHelper.cs" />
   </ItemGroup>
   <ItemGroup>

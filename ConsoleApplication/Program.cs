@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DatabaseGenerator;
+using DatabaseGenerator.MsAccess;
 
 namespace ConsoleApplication
 {
@@ -11,7 +12,9 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            var generator = new GenerateDatabase();
+            var dataMining = new DataMining();
+            dataMining.Mining("ИМС отечественные гибридные");
+            //var generator = new GenerateDatabase();
         }
     }
 }

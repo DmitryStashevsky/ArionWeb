@@ -35,5 +35,11 @@ namespace DatabaseGenerator.XmlDeserialize
 
         [XmlAttribute("Visible")]
         public bool IsVisible { get; set; }
+
+        [XmlElement("ans")]
+        public PropertyOption[] PropertyOptions { get; set; }
+
+        [XmlElement("model")]
+        public GroupModel GroupModel { get; set; }
     }
 }

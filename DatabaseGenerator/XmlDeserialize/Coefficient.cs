@@ -7,12 +7,15 @@ using System.Xml.Serialization;
 
 namespace DatabaseGenerator.XmlDeserialize
 {
-    public class GroupModel
+    public class Coefficient
     {
         [XmlAttribute("Name")]
         public string Name { get; set; }
 
-        [XmlElement("koeff")]
-        public Coefficient[] Coefficients { get; set; }
+        [XmlAttribute("Key")]
+        public string Key { get; set; }
+
+        [XmlAttribute("Default")]
+        public string Default { get; set; }
     }
 }
