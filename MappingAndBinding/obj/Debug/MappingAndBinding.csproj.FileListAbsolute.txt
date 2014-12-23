@@ -8,3 +8,6 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBind
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\EntityFramework.xml
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\obj\Debug\MappingAndBinding.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\obj\Debug\MappingAndBinding.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\AutoMapper.Net4.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\AutoMapper.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\MappingAndBinding\bin\Debug\AutoMapper.xml

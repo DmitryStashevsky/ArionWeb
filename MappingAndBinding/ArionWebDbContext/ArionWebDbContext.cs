@@ -25,11 +25,15 @@ namespace MappingAndBinding.ArionWebDbContext
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ArionWebDbContext>());
+            modelBuilder.Configurations.Add(new CoefficientMapping());
+            modelBuilder.Configurations.Add(new DescriptionMapping());
+            modelBuilder.Configurations.Add(new ElementClassMapping());
+            modelBuilder.Configurations.Add(new ElementGroupMapping());
             modelBuilder.Configurations.Add(new ElementMapping());
-            modelBuilder.Configurations.Add(new ElementTypeMapping());
-           // modelBuilder.Configurations.Add(new ManufacturingTechnologyMapping());
-           // modelBuilder.Configurations.Add(new SpecificationMapping());
-           //modelBuilder.Configurations.Add(new TypeOfHousingMapping());
+            modelBuilder.Configurations.Add(new KeyMapping());
+            modelBuilder.Configurations.Add(new ModelMapping());
+            modelBuilder.Configurations.Add(new PositionMapping());
+            modelBuilder.Configurations.Add(new PropertyMapping());
         }
     }
 }

@@ -10,3 +10,8 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenera
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\EntityFramework.xml
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\AutoMapper.Net4.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\AutoMapper.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\Repositories.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\Repositories.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\DatabaseGenerator\bin\Debug\AutoMapper.xml

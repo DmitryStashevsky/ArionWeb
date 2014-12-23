@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.0\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.3.0\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -45,11 +51,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArionWebDbContext\ArionWebDbContext.cs" />
+    <Compile Include="Mapping\BaseEntityMapping.cs" />
+    <Compile Include="Mapping\BaseStringEntityMapping.cs" />
+    <Compile Include="Mapping\CoefficientMapping.cs" />
+    <Compile Include="Mapping\DescriptionMapping.cs" />
+    <Compile Include="Mapping\ElementClassMapping.cs" />
+    <Compile Include="Mapping\ElementGroupMapping.cs" />
     <Compile Include="Mapping\ElementMapping.cs" />
-    <Compile Include="Mapping\ManufacturingTechnologyMapping.cs" />
-    <Compile Include="Mapping\SpecificationMapping.cs" />
-    <Compile Include="Mapping\ElementTypeMapping.cs" />
-    <Compile Include="Mapping\TypeOfHousingMapping.cs" />
+    <Compile Include="Mapping\KeyMapping.cs" />
+    <Compile Include="Mapping\ModelMapping.cs" />
+    <Compile Include="Mapping\PositionMapping.cs" />
+    <Compile Include="Mapping\PropertyMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +75,7 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\AutoMapper.3.3.0\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.0\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

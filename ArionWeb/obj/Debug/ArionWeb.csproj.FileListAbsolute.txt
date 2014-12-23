@@ -59,6 +59,10 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\k
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\ru\System.Spatial.resources.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\obj\Debug\ArionWeb.csprojResolveAssemblyReference.cache
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\obj\Debug\ArionWeb.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\obj\Debug\ArionWeb.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\Microsoft.Web.Mvc.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\AutoMapper.Net4.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\AutoMapper.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\bin\AutoMapper.xml
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ArionWeb\obj\Debug\ArionWeb.csprojResolveAssemblyReference.cache

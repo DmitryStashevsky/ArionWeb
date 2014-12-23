@@ -28,7 +28,6 @@ namespace DatabaseGenerator.MsAccess
             element.Name = (string)TranslateValue(DataTranslate.Name, row);
             element.FailureRate = (float?)TranslateValue(DataTranslate.FailureRate, row);
             element.Specification = (string)TranslateValue(DataTranslate.Specification, row);
-            element.IsNative = (bool?)TranslateValue(DataTranslate.IsNative, row);
             element.FailureRateSwitch = (float?)TranslateValue(DataTranslate.FailureRateSwitch, row);
             element.SubType = (string)TranslateValue(DataTranslate.SubType, row);
             element.ManufacturingTechnology = TranslateValue(DataTranslate.ManufacturingTechnology, row).ToString();

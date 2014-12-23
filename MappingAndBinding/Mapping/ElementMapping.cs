@@ -8,14 +8,13 @@ using Models;
 
 namespace MappingAndBinding.Mapping
 {
-    public class ElementMapping : EntityTypeConfiguration<Element>
+    public class ElementMapping : BaseStringEntityMapping<Element>
     {
-        public ElementMapping()
+        public ElementMapping() : base()
         {
             ToTable("Elements");
 
-            Property(e => e.Name).IsRequired();
-            Property(e => e.IsNative).IsRequired();
+            Property(e => e.Specification).IsOptional();
             Property(e => e.FailureRate).IsOptional();
             Property(e => e.FailureRateSwitch).IsOptional();
             Property(e => e.SubType).IsOptional();
@@ -23,12 +22,12 @@ namespace MappingAndBinding.Mapping
             Property(e => e.TemperatureSuperheat).IsOptional();
             Property(e => e.TemperatureTransition).IsOptional();
             Property(e => e.Quantity).IsOptional();
+            Property(e => e.ManufacturingTechnology).IsOptional();
+            Property(e => e.TypeOfHousing).IsOptional();
 
-            HasRequired(e => e.ElementType);
-            HasRequired(e => e.Specification);
-
-            HasOptional(e => e.ManufacturingTechnology);
-            HasOptional(e => e.TypeOfHousing);
+            HasRequired(e => e.ElementClass);
+            HasRequired(e => e.ElementGroup);
+            HasRequired(e => e.Position);
         }
     }
 }

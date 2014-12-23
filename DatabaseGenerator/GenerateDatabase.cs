@@ -12,7 +12,7 @@ namespace DatabaseGenerator
         public GenerateDatabase()
         {
             XmlHelper helper = new XmlHelper();
-            var s = helper.GetHierarchy(@"D:\Classifier.xml");
+            var hierarchy = helper.GetHierarchy(@"D:\Classifier.xml");
         }
     }
 }

@@ -8,3 +8,6 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplica
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\Models.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\Models.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.Net4.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.xml
