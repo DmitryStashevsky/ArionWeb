@@ -9,17 +9,11 @@ namespace DatabaseGenerator.XmlDeserialize
 {
     public class GroupProperty
     {
-        [XmlAttribute("Id")]
-        public int Id { get; set; }
-
         [XmlAttribute("Name")]
         public string Name { get; set; }
 
         [XmlAttribute("Type")]
         public int Type { get; set; }
-
-        [XmlAttribute("L")]
-        public float L { get; set; }
 
         [XmlAttribute("Min")]
         public string Min { get; set; }
@@ -36,10 +30,10 @@ namespace DatabaseGenerator.XmlDeserialize
         [XmlAttribute("Visible")]
         public bool IsVisible { get; set; }
 
+        [XmlAttribute("Access")]
+        public string Access { get; set; }
+
         [XmlElement("ans")]
         public PropertyOption[] PropertyOptions { get; set; }
-
-        [XmlElement("model")]
-        public GroupModel GroupModel { get; set; }
     }
 }

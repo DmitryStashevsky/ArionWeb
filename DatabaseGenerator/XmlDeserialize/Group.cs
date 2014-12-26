@@ -10,8 +10,6 @@ namespace DatabaseGenerator.XmlDeserialize
     [XmlRootAttribute("group")]
     public class Group
     {
-        [XmlAttribute("Id")]
-        public int Id { get; set; }
         [XmlAttribute("Name")]
         public string Name { get; set; }
         [XmlAttribute("Access")]

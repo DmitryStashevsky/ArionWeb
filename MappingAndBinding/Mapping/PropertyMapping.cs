@@ -20,6 +20,7 @@ namespace MappingAndBinding.Mapping
             Property(e => e.Max).IsOptional();
             Property(e => e.Default).IsOptional();
             Property(e => e.Visible).IsRequired();
+            Property(e => e.Access).IsOptional();
 
             HasMany(e => e.Descriptions);
             HasMany(e => e.Keys);

@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using MappingAndBinding.ArionWebDbContext;
 
 namespace ArionWeb
 {
@@ -17,7 +18,8 @@ namespace ArionWeb
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-
+            ArionWebDbContext context = new ArionWebDbContext();
+            context.Database.Initialize(true);
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

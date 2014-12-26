@@ -13,7 +13,7 @@ namespace MappingAndBinding.ArionWebDbContext
         public ArionWebDbContext()
             : base("DefaultConnection")
         {
-            
+            Database.SetInitializer<ArionWebDbContext>(new CreateDatabaseIfNotExists<ArionWebDbContext>());
         }
 
         public ArionWebDbContext(string connectionString)
@@ -24,7 +24,7 @@ namespace MappingAndBinding.ArionWebDbContext
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ArionWebDbContext>());
+            Database.SetInitializer<ArionWebDbContext>(new DropCreateDatabaseAlways<ArionWebDbContext>());
             modelBuilder.Configurations.Add(new CoefficientMapping());
             modelBuilder.Configurations.Add(new DescriptionMapping());
             modelBuilder.Configurations.Add(new ElementClassMapping());

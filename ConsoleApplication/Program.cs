@@ -12,9 +12,9 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            var dataMining = new DataMining();
-            dataMining.Mining("ИМС отечественные гибридные");
-            //var generator = new GenerateDatabase();
+            //var dataMining = new DataMining();
+            //dataMining.Mining("ИМС отечественные гибридные");
+            var generator = new GenerateDatabase();
         }
     }
 }

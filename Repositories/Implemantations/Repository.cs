@@ -12,7 +12,7 @@ namespace Repositories.Implemantations
     {
         protected IUnitOfWork m_UnitOfWork;
 
-        protected Repository(IUnitOfWork unitOfWork)
+        public Repository(IUnitOfWork unitOfWork)
         {
             m_UnitOfWork = unitOfWork;
         }

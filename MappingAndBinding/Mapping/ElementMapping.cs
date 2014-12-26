@@ -25,9 +25,9 @@ namespace MappingAndBinding.Mapping
             Property(e => e.ManufacturingTechnology).IsOptional();
             Property(e => e.TypeOfHousing).IsOptional();
 
-            HasRequired(e => e.ElementClass);
-            HasRequired(e => e.ElementGroup);
-            HasRequired(e => e.Position);
+            HasRequired(e => e.ElementClass).WithOptional();
+            HasRequired(e => e.ElementGroup).WithOptional();
+            HasRequired(e => e.Position).WithOptional();
         }
     }
 }

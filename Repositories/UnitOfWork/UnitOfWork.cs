@@ -12,6 +12,11 @@ namespace Repositories.UnitOfWork
     {
         protected DbContext m_Context;
 
+        public UnitOfWork(DbContext context)
+        {
+            m_Context = context;
+        }
+
         public void SaveChanges()
         {
             m_Context.SaveChanges();

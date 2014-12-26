@@ -3,3 +3,8 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\Models\bin\Deb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\Models\obj\Debug\Models.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\Models\obj\Debug\Models.pdb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Models\bin\Debug\Models.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Models\bin\Debug\Models.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Models\obj\Debug\Models.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Models\obj\Debug\Models.pdb

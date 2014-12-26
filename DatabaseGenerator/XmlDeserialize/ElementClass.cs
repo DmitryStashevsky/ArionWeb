@@ -7,11 +7,8 @@ using System.Xml.Serialization;
 
 namespace DatabaseGenerator.XmlDeserialize
 {
-    [Serializable]
     public class ElementClass
     {
-        [XmlAttribute("Id")]
-        public int Id { get; set; }
         [XmlAttribute("Name")]
         public string Name { get; set; }
         [XmlElement("owner")]

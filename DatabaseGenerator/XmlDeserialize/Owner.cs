@@ -9,8 +9,6 @@ namespace DatabaseGenerator.XmlDeserialize
 {
    public class Owner
     {
-        [XmlAttribute("Id")]
-        public int Id { get; set; }
         [XmlAttribute("Name")]
         public string Name { get; set; }
         [XmlElement("group")]
