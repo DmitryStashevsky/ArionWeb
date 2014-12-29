@@ -37,15 +37,15 @@ Icon
 
 ArionWeb/bin/
 ArionWeb/obj/
-ArionWeb/ConsoleApplication/bin/
-ArionWeb/ConsoleApplication/obj/
-ArionWeb/DatabaseGenerator/bin/
-ArionWeb/DatabaseGenerator/obj/
-ArionWeb/MappingAndBinding/bin/
-ArionWeb/MappingAndBinding/obj/
-ArionWeb/Models/bin/
-ArionWeb/Models/obj/
-ArionWeb/Repositories/bin/
-ArionWeb/Repositories/obj/
-ArionWeb/Services/bin/
-ArionWeb/Services/obj/
+ConsoleApplication/bin/
+ConsoleApplication/obj/
+DatabaseGenerator/bin/
+DatabaseGenerator/obj/
+MappingAndBinding/bin/
+MappingAndBinding/obj/
+Models/bin/
+Models/obj/
+Repositories/bin/
+ARepositories/obj/
+Services/bin/
+Services/obj/
