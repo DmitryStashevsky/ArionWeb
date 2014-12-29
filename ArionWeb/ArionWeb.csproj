@@ -55,6 +55,9 @@
     <Reference Include="Ninject.Web.Common">
       <HintPath>..\packages\Ninject.Web.Common.3.2.0.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Ninject.Web.Mvc">
+      <HintPath>..\packages\Ninject.MVC3.3.2.1.0\lib\net45-full\Ninject.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Ninject.Web.WebApi">
       <HintPath>..\packages\Ninject.Web.WebApi.3.2.3.0\lib\net45-full\Ninject.Web.WebApi.dll</HintPath>
     </Reference>
@@ -153,6 +156,9 @@
       <Private>True</Private>
       <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
@@ -167,6 +173,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\ExampleLayoutsRouteConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
@@ -186,6 +193,15 @@
     <Compile Include="BootstrapSupport\ControlGroupExtensions.cs" />
     <Compile Include="BootstrapSupport\ViewHelperExtensions.cs" />
     <Compile Include="Controllers\BootstrapBaseController.cs" />
+    <Compile Include="Controllers\Classifier\ClassifierController.cs" />
+    <Compile Include="Controllers\Classifier\CoefficientController.cs" />
+    <Compile Include="Controllers\Classifier\DescriptionController.cs" />
+    <Compile Include="Controllers\Classifier\ElementClassController.cs" />
+    <Compile Include="Controllers\Classifier\ElementGroupController.cs" />
+    <Compile Include="Controllers\Classifier\KeyController.cs" />
+    <Compile Include="Controllers\Classifier\ModelController.cs" />
+    <Compile Include="Controllers\Classifier\PositionController.cs" />
+    <Compile Include="Controllers\Classifier\PropertyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -298,7 +314,9 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -348,6 +366,18 @@
     <ProjectReference Include="..\MappingAndBinding\MappingAndBinding.csproj">
       <Project>{e07453ea-151a-4bdd-80b8-b44f5ee79f57}</Project>
       <Name>MappingAndBinding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{f2be58cc-fffd-4c09-9dae-7271086f52b3}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repositories\Repositories.csproj">
+      <Project>{7624b20d-50e1-464b-bdcc-bab386abb06e}</Project>
+      <Name>Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{fce9d93e-6824-4681-8013-fab7d76544ee}</Project>
+      <Name>Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

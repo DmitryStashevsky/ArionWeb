@@ -14,3 +14,5 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Repositories\bin\De
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Repositories\obj\Debug\Repositories.csprojResolveAssemblyReference.cache
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Repositories\obj\Debug\Repositories.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Repositories\obj\Debug\Repositories.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Repositories\bin\Debug\Models.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\Repositories\bin\Debug\Models.pdb

@@ -14,7 +14,6 @@ namespace MappingAndBinding.Mapping
         {
             ToTable("Descriptions");
 
-            HasMany(e => e.Properties);
             HasMany(e => e.Keys);
         }
     }

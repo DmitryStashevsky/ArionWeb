@@ -22,7 +22,8 @@ namespace MappingAndBinding.Mapping
             Property(e => e.Visible).IsRequired();
             Property(e => e.Access).IsOptional();
 
-            HasMany(e => e.Descriptions);
+            HasMany(e => e.Descriptions).WithMany(e => e.Properties);
+
             HasMany(e => e.Keys);
         }
     }

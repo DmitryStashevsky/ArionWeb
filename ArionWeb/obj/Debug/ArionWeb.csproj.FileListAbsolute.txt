@@ -150,3 +150,10 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Mappin
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Models.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\MappingAndBinding.pdb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Models.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Services.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Repositories.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Services.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Repositories.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Ninject.Web.Mvc.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\WebActivatorEx.dll
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ArionWeb\bin\Ninject.Web.Mvc.xml

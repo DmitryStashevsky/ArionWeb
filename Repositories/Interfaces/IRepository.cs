@@ -12,6 +12,8 @@ namespace Repositories.Interfaces
 
         TEntity Get(int id);
 
+        IEnumerable<TEntity> Get(int[] id);
+
         IEnumerable<TEntity> Get();
 
         void Update(TEntity entity);

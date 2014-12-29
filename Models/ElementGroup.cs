@@ -15,9 +15,15 @@ namespace Models
 
         public string Access { get; set; }
         //Navigation
+        public int ModelId { get; set; }
         public Model Model { get; set; }
+
+        public int ElementClassId { get; set; }
         public ElementClass ElementClass { get; set; }
+
+        public int PositionId { get; set; }
         public Position Position { get; set; }
+
         public IList<Property> Properties { get; set; }
     }
 }

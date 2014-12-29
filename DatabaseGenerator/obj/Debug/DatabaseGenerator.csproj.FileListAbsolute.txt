@@ -19,7 +19,6 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\o
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\obj\Debug\DatabaseGenerator.pdb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\bin\Debug\AutoMapper.Net4.dll
-C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll.config
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\bin\Debug\DatabaseGenerator.pdb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\DatabaseGenerator\bin\Debug\AutoMapper.dll

@@ -12,6 +12,7 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Press any key for staring generation");
             //var dataMining = new DataMining();
             //dataMining.Mining("ИМС отечественные гибридные");
             var generator = new GenerateDatabase();

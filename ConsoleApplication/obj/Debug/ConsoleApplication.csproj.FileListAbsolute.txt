@@ -11,7 +11,6 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplica
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.Net4.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\.git\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.xml
-C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.Net4.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\ConsoleApplication.exe
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
@@ -30,3 +29,4 @@ C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\MappingAndBinding.dll
 C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\MappingAndBinding.pdb
+C:\Users\dmitrystashevsky\Documents\GitHub\ArionWeb\ArionWeb\ConsoleApplication\bin\Debug\AutoMapper.Net4.dll

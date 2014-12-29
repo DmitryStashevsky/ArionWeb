@@ -17,8 +17,8 @@ namespace MappingAndBinding.Mapping
             Property(e => e.Access);
 
             HasMany(e => e.Properties);
-            HasRequired(e => e.Model);
 
+            HasRequired(e => e.Model);
             HasRequired(e => e.ElementClass);
             HasRequired(e => e.Position);
         }

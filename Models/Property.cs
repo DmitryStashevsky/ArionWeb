@@ -21,6 +21,7 @@ namespace Models
         public float? Default { get; set; }
         public bool Visible { get; set; }
         public string Access { get; set; }
+
         public IList<Description> Descriptions { get; set; }
         public IList<Key> Keys { get; set; }
     }

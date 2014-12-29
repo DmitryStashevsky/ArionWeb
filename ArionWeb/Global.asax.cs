@@ -19,7 +19,7 @@ namespace ArionWeb
         {
             AreaRegistration.RegisterAllAreas();
             ArionWebDbContext context = new ArionWebDbContext();
-            context.Database.Initialize(true);
+            //context.Database.Initialize(true);
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

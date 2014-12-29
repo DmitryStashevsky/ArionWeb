@@ -13,6 +13,9 @@ namespace Models
             ElementGroups = new List<ElementGroup>();
         }
 
+        public int ElementClassId { get; set; }
+        public ElementClass ElementClass { get; set; }
+
         public IList<ElementGroup> ElementGroups { get; set; }
     }
 }

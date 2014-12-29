@@ -14,7 +14,7 @@ namespace MappingAndBinding.Mapping
         {
             ToTable("Positions");
 
-            HasMany(e => e.ElementGroups);
+            HasRequired(e => e.ElementClass).WithMany(e => e.Positions).HasForeignKey(e => e.ElementClassId).WillCascadeOnDelete(false);
         }
     }
 }

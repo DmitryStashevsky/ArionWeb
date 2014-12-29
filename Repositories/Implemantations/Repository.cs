@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Models;
 using Repositories.Interfaces;
 using Repositories.UnitOfWork;
 
 namespace Repositories.Implemantations
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
         protected IUnitOfWork m_UnitOfWork;
 
@@ -27,9 +28,15 @@ namespace Repositories.Implemantations
             return m_UnitOfWork.Get<TEntity>(id);
         }
 
+        public IEnumerable<TEntity> Get(int[] id)
+        {
+            return m_UnitOfWork.AsQueryableForWithTracking<TEntity>().Where(e => id.Contains(e.Id)).ToList();
+        }
+
+
         public IEnumerable<TEntity> Get()
         {
-            return m_UnitOfWork.AsQueryableFor<TEntity>().ToList();
+            return m_UnitOfWork.AsQueryableForWithTracking<TEntity>().ToList();
         }
 
         public void Update(TEntity entity)

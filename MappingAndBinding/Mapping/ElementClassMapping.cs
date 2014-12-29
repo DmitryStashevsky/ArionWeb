@@ -14,7 +14,6 @@ namespace MappingAndBinding.Mapping
         {
             ToTable("ElementClasses");
 
-            HasMany(e => e.Positions);
         }
     }
 }

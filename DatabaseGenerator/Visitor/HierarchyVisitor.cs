@@ -30,7 +30,7 @@ namespace DatabaseGenerator.Visitor
         public HierarchyVisitor()
         {
             AutoMapperConfigurationForGenerator.Configure();
-            var context = new ArionWebDbContext();
+            var context = new ArionWebDbContext(true);
             context.Database.Initialize(true);
             UnitOfWork unitOfWork = new UnitOfWork(context);
 
@@ -69,7 +69,7 @@ namespace DatabaseGenerator.Visitor
 
         protected void Visit(Owner owner, Models.ElementClass elementClass)
         {
-            Models.Position position = m_PositionRepository.Create(Mapper.Map<Models.Position>(owner));
+            Models.Position position = Mapper.Map<Models.Position>(owner);
             elementClass.Positions.Add(position);
             if (owner.Groups != null)
             {
