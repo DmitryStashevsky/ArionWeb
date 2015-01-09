@@ -14,11 +14,10 @@ namespace DatabaseGenerator
     {
         public GenerateDatabase()
         {
-            //add automapper configuration
-            AutoMapperConfigurationForGenerator.Configure();
             //process xml file
             XmlHelper helper = new XmlHelper();
             var hierarchy = helper.GetHierarchy(@"D:\Classifier.xml");
+           
             //save xml entities to SQL
             HierarchyVisitor.Visit(hierarchy);
         }

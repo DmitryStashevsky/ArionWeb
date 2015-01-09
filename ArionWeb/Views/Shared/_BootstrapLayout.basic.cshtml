@@ -2,17 +2,17 @@
 @using BootstrapSupport
 @using NavigationRoutes
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="application">
     <head>
         <meta charset="utf-8">
         <title>@ViewBag.Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="@Styles.Url("~/content/css")" rel="stylesheet"/>
+        @Styles.Render("~/content/css")
         @RenderSection("head", required: false)
         @Html.Partial("_html5shiv")
         @* favicons and touch icons go here *@
     </head>
-    <body>
+    <body ng-controller="webApiController">
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
@@ -23,7 +23,9 @@
                     </a>
                     <a class="brand" href="#" title="change in _bootstrapLayout.basic.cshtml">Application Name</a>
                     <div class="nav-collapse collapse">
+                        <ul class="nav navbar-nav">
                           @Html.Navigation()
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -38,6 +40,7 @@
             </footer> 
         </div>
          @Scripts.Render("~/js")
+         @Scripts.Render("~/AngularApplication")
          @RenderSection("Scripts", required: false)
     </body>
 </html>
