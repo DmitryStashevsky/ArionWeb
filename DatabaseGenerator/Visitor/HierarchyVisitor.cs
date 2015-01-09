@@ -12,10 +12,11 @@ using MappingAndBinding.ArionWebDbContext;
 using Repositories.Implemantations;
 using Repositories.Interfaces;
 using Repositories.UnitOfWork;
+using System.Diagnostics;
 
 namespace DatabaseGenerator.Visitor
 {
-    public class HierarchyVisitor : IHierarchyVisitor
+    public class HierarchyVisitor
     {
         protected Repository<Models.Coefficient> m_CoefficientRepository;
         protected Repository<Models.Description> m_DescriptionRepository;
@@ -27,11 +28,9 @@ namespace DatabaseGenerator.Visitor
         protected Repository<Models.Position> m_PositionRepository;
         protected Repository<Models.Property> m_PropertyRepository;
 
-        public HierarchyVisitor()
+        private HierarchyVisitor()
         {
-            AutoMapperConfigurationForGenerator.Configure();
-            var context = new ArionWebDbContext(true);
-            context.Database.Initialize(true);
+            var context = new ArionWebDbContext(false);
             UnitOfWork unitOfWork = new UnitOfWork(context);
 
             m_CoefficientRepository = new Repository<Models.Coefficient>(unitOfWork);
@@ -45,19 +44,36 @@ namespace DatabaseGenerator.Visitor
             m_PropertyRepository = new Repository<Models.Property>(unitOfWork);
         }
 
-        public void Visit(Hierarchy hierarchy)
+        static HierarchyVisitor()
         {
-            Console.WriteLine(string.Format("Total classes - {0}", hierarchy.ElementClasses.Length));
-            foreach (var elementClass in hierarchy.ElementClasses)
-            {
-                Visit(elementClass);
-            }
+            AutoMapperConfigurationForGenerator.Configure();
+            var context = new ArionWebDbContext(true);
+            context.Database.Initialize(true);
         }
+
+        public static void Visit(Hierarchy hierarchy)
+        {
+            int totalClasses = hierarchy.ElementClasses.Length;
+            int classesCompleted = 0;
+            Console.WriteLine(string.Format("Total classes - {0}", totalClasses));
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            Parallel.ForEach(hierarchy.ElementClasses, (elementClass) =>
+                {
+                    HierarchyVisitor visitor = new HierarchyVisitor();
+                    visitor.Visit(elementClass);
+                    int safeClasseCompleted = Interlocked.Increment(ref classesCompleted);
+                    Console.WriteLine(string.Format("Completed- {0}/{1}", safeClasseCompleted, totalClasses));
+                });
+            stopwatch.Stop();
+            Console.WriteLine(string.Format("Elapsed time- {0}", stopwatch.Elapsed));
+        }
+
 
         protected void Visit(ElementClass elementClass)
         {
             Models.ElementClass elementClassToSave = m_ElementClassRepository.Create(Mapper.Map<Models.ElementClass>(elementClass));
-            Console.WriteLine(string.Format("class: {0}", elementClass.Name));
             if (elementClass.Owner != null)
             {
                 foreach (var owner in elementClass.Owner)

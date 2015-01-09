@@ -20,8 +20,7 @@ namespace DatabaseGenerator
             XmlHelper helper = new XmlHelper();
             var hierarchy = helper.GetHierarchy(@"D:\Classifier.xml");
             //save xml entities to SQL
-            IHierarchyVisitor visitor = new HierarchyVisitor();
-            visitor.Visit(hierarchy);
+            HierarchyVisitor.Visit(hierarchy);
         }
     }
 }

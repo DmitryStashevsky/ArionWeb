@@ -13,6 +13,11 @@ namespace DatabaseGenerator.XmlDeserialize
     {
         public Hierarchy GetHierarchy(string pathToXml)
         {
+            using (var r = new StreamReader(pathToXml, detectEncodingFromByteOrderMarks: true))
+            {
+                var e = r.CurrentEncoding;
+                Console.WriteLine(e);
+            }
             using (var fs = new FileStream(pathToXml, FileMode.Open))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(Hierarchy));

@@ -16,6 +16,7 @@ namespace ConsoleApplication
             //var dataMining = new DataMining();
             //dataMining.Mining("ИМС отечественные гибридные");
             var generator = new GenerateDatabase();
+            Console.ReadKey();
         }
     }
 }
